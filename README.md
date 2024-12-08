@@ -86,6 +86,6 @@ La base de datos se guarda en un archivo llamado `inventario.db`. Puedes explora
 
 ## Posibles Mejoras Futuras
 
-    * Implementar filtros avanzados para buscar productos por categoría o rango deprecios.
-    *Exportar el inventario a formatos como Excel o PDF.
-    *Incorporar autenticación para garantizar un acceso seguro al inventario.
+- Implementar filtros avanzados para buscar productos por categoría o rango de precios.
+- Exportar el inventario a formatos como Excel o PDF.
+- Incorporar autenticación para garantizar un acceso seguro al inventario.
