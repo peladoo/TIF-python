@@ -1,79 +1,91 @@
-Inventario de Ferretería
-Autor: Mauricio Martin Fontana
-Este programa es una aplicación de escritorio para gestionar el inventario de productos de una ferretería. Fue desarrollado en Python utilizando tkinter para la interfaz gráfica y sqlite3 para la base de datos.
+# Inventario de Ferretería
 
-Funcionalidades
+### Autor: **Mauricio Martin Fontana**
+
+Este programa es una aplicación de escritorio para gestionar el inventario de productos de una ferretería. Fue desarrollado en Python utilizando `tkinter` para la interfaz gráfica y `sqlite3` para la base de datos.
+
+---
+
+## Funcionalidades
+
 El programa permite realizar las siguientes acciones:
 
-Agregar productos:
-Añadir nuevos productos al inventario especificando nombre, descripción, cantidad, precio y categoría.
+1. **Agregar productos**:  
+   Añadir nuevos productos al inventario especificando nombre, descripción, cantidad, precio y categoría.
 
-Mostrar inventario:
-Visualizar todos los productos registrados en el inventario, incluyendo sus detalles como ID, nombre, descripción, cantidad, precio y categoría.
+2. **Mostrar inventario**:  
+   Visualizar todos los productos registrados en el inventario, incluyendo sus detalles como ID, nombre, descripción, cantidad, precio y categoría.
 
-Eliminar productos:
-Eliminar un producto del inventario utilizando su ID.
+3. **Eliminar productos**:  
+   Eliminar un producto del inventario utilizando su ID.
 
-Actualizar productos:
-Modificar la cantidad y el precio de un producto existente en el inventario.
+4. **Actualizar productos**:  
+   Modificar la cantidad y el precio de un producto existente en el inventario.
 
-Buscar productos:
-Buscar un producto por su nombre y obtener información detallada del mismo.
+5. **Buscar productos**:  
+   Buscar un producto por su nombre y obtener información detallada del mismo.
 
-Reporte de bajo stock:
-Generar un informe de productos con stock igual o inferior a un valor límite definido por el usuario.
+6. **Reporte de bajo stock**:  
+   Generar un informe de productos con stock igual o inferior a un valor límite definido por el usuario.
 
-Salir:
-Cerrar la aplicación de manera segura.
+7. **Salir**:  
+   Cerrar la aplicación de manera segura.
 
-Requisitos Previos
-Python 3.x instalado en tu sistema.
-Puedes descargar Python desde python.org.
+---
 
-Biblioteca tkinter incluida en Python por defecto.
+## Requisitos Previos
 
-Biblioteca sqlite3, también incluida por defecto en Python.
+- **Python 3.x** instalado en tu sistema.  
+  Puedes descargar Python desde [python.org](https://www.python.org/).
 
-Instalación y Uso
-Clona o descarga este repositorio:
+- Biblioteca **`tkinter`**, incluida en Python por defecto.
 
-bash
-Copiar código
-git clone <url-del-repositorio>
-cd inventario-ferreteria
-Ejecuta el programa:
-Abre una terminal o consola en la carpeta donde está ubicado el archivo del programa y ejecuta:
+- Biblioteca **`sqlite3`**, también incluida por defecto en Python.
 
-bash
-Copiar código
-python inventario.py
-Interfaz gráfica:
-Una ventana se abrirá mostrando las opciones principales del programa. Desde allí, podrás interactuar con el inventario.
+---
 
-Cómo Ver la Base de Datos
-La base de datos se guarda en un archivo llamado inventario.db. Puedes explorarla usando:
+## Instalación y Uso
 
-Herramientas gráficas:
+1. **Clona o descarga este repositorio**:
 
-DB Browser for SQLite
-SQLiteStudio
-Línea de comandos de SQLite:
+   ```bash
+   git clone https://github.com/peladoo/TIF-python.git
+   cd TIF-python
 
-Navega al directorio del proyecto y usa:
-bash
-Copiar código
-sqlite3 inventario.db
-Consulta los datos con:
-sql
-Copiar código
-SELECT * FROM productos;
-Desde el programa Python:
-Ejecuta la función ver_productos() incluida en el código para listar los productos en la consola.
+   ```
 
-Posibles Mejoras Futuras
-Implementar filtros avanzados para buscar productos por categoría o rango de precios.
-Exportar el inventario a formatos como Excel o PDF.
-Incorporar autenticación para acceso seguro al inventario.
-Si tienes alguna duda o sugerencia, ¡no dudes en contactarme!
+2. **Ejecuta el programa**:  
+   Abre una terminal o consola en la carpeta donde está ubicado el archivo del programa y ejecuta:
+   python inventario.py
 
-Desarrollado por [Tu Nombre y Apellido]
+3. **Interactua con el programa**:
+   Utiliza las funcionalidades que te ofrezcan el programa para gestionar tu inventario de productos de ferretería.
+
+---
+
+## Cómo Ver la Base de Datos
+
+La base de datos se guarda en un archivo llamado `inventario.db`. Puedes explorarla usando cualquiera de las siguientes opciones:
+
+### Herramientas gráficas
+
+- [DB Browser for SQLite](https://sqlitebrowser.org/)
+- [SQLiteStudio](https://sqlitestudio.pl/)
+
+### Línea de comandos de SQLite
+
+1. **Navega al directorio del proyecto y abre una terminal**.
+2. **Usa el siguiente comando para acceder a la base de datos**:
+   ```bash
+   sqlite3 inventario.db
+   ```
+3. **Consulta los datos con la instrucción SQL**:
+   ```sql
+   SELECT * FROM productos;
+   ```
+
+## Posibles Mejoras Futuras
+
+    * Implementar filtros avanzados para buscar productos por categoría o rango deprecios.
+    *Exportar el inventario a formatos como Excel o PDF.
+    *Incorporar autenticación para garantizar un acceso seguro al inventario.
