@@ -3,8 +3,10 @@
 ### Autor: **Mauricio Martin Fontana**
 
 Este programa es una aplicación de escritorio para gestionar el inventario de productos de una ferretería. Fue desarrollado en Python utilizando `tkinter` para la interfaz gráfica y `sqlite3` para la base de datos.
-El mismo esta enmarcado en el programa de la Ciudad de Buenos Aires denominado "Talento Tech", cursos de iniciacion a la programacion con Python
 ---
+
+El mismo esta enmarcado en el programa de la Ciudad de Buenos Aires denominado "Talento Tech", cursos de iniciacion a la programacion con Python
+
 
 ## Funcionalidades
 
